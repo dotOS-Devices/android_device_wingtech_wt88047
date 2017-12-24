@@ -15,7 +15,7 @@
 $(call inherit-product, device/wingtech/wt88047/full_wt88047.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
@@ -28,6 +28,8 @@ BOARD_VENDOR := wingtech
 PRODUCT_DEVICE := wt88047
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+DOT_OFFICIAL := true
 
 # Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
