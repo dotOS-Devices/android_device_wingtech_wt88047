@@ -30,6 +30,7 @@ PRODUCT_DEVICE := wt88047
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 DOT_OFFICIAL := true
+PA_CAM := true
 
 # Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
